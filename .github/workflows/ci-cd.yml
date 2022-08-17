@@ -99,7 +99,6 @@ jobs:
           path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/WebApp/
 
   cd:
-    if: needs.ci.outputs.is_push_to_default_branch == 'true'
     name: Continuous Deployment
     needs: ci
     runs-on: windows-latest
