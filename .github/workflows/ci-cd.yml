@@ -101,7 +101,7 @@ jobs:
   cd:
     name: Continuous Deployment
     needs: ci
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     environment: production    
     steps:
       - name: Download publish artifacts
