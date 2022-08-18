@@ -26,3 +26,4 @@ docker build --pull -t web -f src/DevBetterWeb.Web/Dockerfile .
 5. docker push devbetterregistry.azurecr.io/devbetterweb:vN
 
 6. Go to Azure Portal - Container Settings - Tag -> vN
+
