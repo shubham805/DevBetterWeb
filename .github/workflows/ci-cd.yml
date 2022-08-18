@@ -102,6 +102,7 @@ jobs:
     name: Continuous Deployment
     needs: ci
     runs-on: windows-latest
+    environment: production    
     steps:
       - name: Download publish artifacts
         id: dl_publish_artifacts
